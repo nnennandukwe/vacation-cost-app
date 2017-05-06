@@ -1,0 +1,38 @@
+<!--- Vacation Calculator App --->
+
+<!--- Vacation Calculator App --->
+
+<html>
+<title>Vacation Cost App</title>
+<div class="calculator-box">
+
+ <h1 id="calctitle">Vacation Calculator</h1>
+ <div class="calculator">
+  <form oninput="x.value=parseInt(nights.value*140)+parseInt(charlotte.value)+parseInt(car.value*40)+parseInt(spend.value)">
+   <label>1. Number of hotel nights:</label><br>
+   <input type="number" class="hotelnights" name="number" id="nights" value="0">
+   <br>
+   <label>2. Pick a city to fly to:</label>
+   <br>
+   <input type="radio" name="city" id="charlotte" value="183" checked> Charlotte
+   <br>
+   <input type="radio" name="city" value="220"> Tampa
+   <br>
+   <input type="radio" name="city" value="222"> Pittsburgh
+   <br>
+   <input type="radio" class="hotelnights" name="city" value="475"> Los Angeles
+   <br>
+   <label>3. Daily Rental Car Fee:</label>
+   <br>
+   <input type="number" name="car" id="car" value="0" class="hotelnights">
+   <br>
+   <label>4. Spending Money:</label>
+   <br>
+   <input type="number" name="spend" id="spend" value="0" class="hotelnights">
+   <br>
+	  <br>
+	  <label><strong>Total Cost:</strong></label>
+	  <output name="x" for="nights car spend"</output>
+  </form>
+ </div>
+</div>

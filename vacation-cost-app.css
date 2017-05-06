@@ -1,0 +1,22 @@
+#calctitle{
+	text-align:center;
+}
+.hotelnights{
+	margin-bottom:17px;
+}
+.calculator-box{
+	height:600px;
+	width:550px;
+	background-color:gray;
+	color:white;
+	display:block;
+	margin:auto;
+	margin-top:20px;
+	border-radius:7.5px;
+}
+.calculator{
+	font-family:helvetica;
+	padding:20px 25px 10px 25px;
+	background-color:lightgray;
+	height:470px;
+}
